@@ -106,7 +106,7 @@
 
    				<img src="images/profile-pic.png" alt="Profile Picture">
 
-   				<p class="lead">Lorem ipsum Exercitation culpa qui dolor consequat exercitation fugiat laborum ex ea eiusmod ad do aliqua occaecat nisi ad irure sunt id pariatur Duis laboris amet exercitation veniam labore consectetur ea id quis eiusmod.</p>
+   				<p class="lead" style="text-align: justify;text-justify: inter-word;">I am a passionate Full-Stack Developer that currently in position of developing Web-Based Application using .NET. I am an enthusiastic person in learning something new. Willing to give extra effort to achieve goals and expand my expertise.</p>
    			</div>   			
 
    		</div>   		
@@ -116,29 +116,29 @@
 
    		<div class="col-six tab-full">
 
-   			<h3>Profile</h3>
-   			<p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p>
-
+   			<h3 style="border-bottom: 1px solid #979797; padding-bottom: 3px; text-align: center">Profile</h3>
+   			@*<p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p>*@
+			
    			<ul class="info-list">
    				<li>
    					<strong>Fullname:</strong>
-   					<span>Juan Dela Cruz</span>
+   					<span>Husain Albar</span>
    				</li>
    				<li>
    					<strong>Birth Date:</strong>
-   					<span>September 28, 1987</span>
+   					<span>March 31, 1997</span>
    				</li>
    				<li>
    					<strong>Job:</strong>
-   					<span>Freelancer, Frontend Developer</span>
+   					<span>Freelancer, .NET Developer</span>
    				</li>
    				<li>
-   					<strong>Website:</strong>
-   					<span>www.kardswebsite.com</span>
+   					<strong>LinkedIn:</strong>
+   					<span>www.linkedin.com/in/husainalbar</span>
    				</li>
    				<li>
    					<strong>Email:</strong>
-   					<span>me@kardswebsite.com</span>
+   					<span>husainalbar@outlook.com</span>
    				</li>
 
    			</ul> <!-- /info-list -->
@@ -147,33 +147,41 @@
 
    		<div class="col-six tab-full">
 
-   			<h3>Skills</h3>
-   			<p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p>
-
-				<ul class="skill-bars">
+   			<h3 style="border-bottom: 1px solid #979797; padding-bottom: 3px; text-align: center">Skills</h3>
+   			<ul class="skill-bars left">
 				   <li>
-				   	<div class="progress percent90"><span>90%</span></div>
-				   	<strong>HTML5</strong>
+				   	<strong class="skills">HTML</strong>
 				   </li>
 				   <li>
-				   	<div class="progress percent85"><span>85%</span></div>
-				   	<strong>CSS3</strong>
+				   	<strong class="skills">C#</strong>
 				   </li>
 				   <li>
-				   	<div class="progress percent70"><span>70%</span></div>
-				   	<strong>JQuery</strong>
+				   	<strong class="skills">.NET Framework</strong>
 				   </li>
 				   <li>
-				   	<div class="progress percent95"><span>95%</span></div>
-				   	<strong>PHP</strong>
+				   	<strong class="skills">MS SQL Server</strong>
+				   </li>      
+				</ul> 
+				
+				<div>
+					<ul class="skill-bars right">
+				   <li >
+				   	<strong class="skills">Bootstrap</strong>
 				   </li>
 				   <li>
-
-				   	<div class="progress percent75"><span>75%</span></div>
-				   	<strong>Wordpress</strong>
+				   	<strong class="skills">Mudblazor</strong>
 				   </li>
-      
-				</ul> <!-- /skill-bars -->		
+				   <li>
+				   	<strong class="skills">Git</strong>
+				   </li>
+				   <li>
+				   	<strong class="skills">SCRUM</strong>
+				   </li>      
+				</ul> 
+				</div>
+				
+				<!-- /skill-bars -->	
+			
 
    		</div>
 
@@ -1022,6 +1030,20 @@
 header .logo a {
 height : 19px;
 
+}
+
+.left{
+float: left;
+width: 45%; }
+
+.right{
+float: right;
+width: 45%; 
+text-align:center}
+
+.skills {
+	width:100%;
+	text-align:center;
 }
 
 </style>
